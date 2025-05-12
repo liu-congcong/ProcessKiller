@@ -1,16 +1,18 @@
 # ProcessKiller
 
-Kill the programs on Linux/macOS
+Kill the programs on Linux/macOS.
 
 ## Usage
 
 ```bash
-git clone https://github.com/liu-congcong/ProcessKiller
-ProcessKiller -h
-Kill the programs on Linux/macOS (https://github.com/liu-congcong/ProcessKiller)
+processKiller v1.0.0
+Kill the programs on Linux/macOS.
+https://github.com/liu-congcong/ProcessKiller
+
 Usage:
-    ProcessKiller [--user user] keyword1 keyword2 ...
+  processKiller [options] <keyword> ... <keyword>
+
 Options:
-    -u/--user: the default is yourself, you may need sudo privileges to kill other's programs
-    keyword: *keyword* will be killed
+  -u    Username, default is yourself, sudo privileges are required to kill other's programs
+  -d    Print matched programs only
 ```
