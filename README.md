@@ -4,7 +4,7 @@ Kill the programs on Linux/macOS.
 
 ## Usage
 
-```bash
+```TEXT
 processKiller v1.0.0
 Kill the programs on Linux/macOS.
 https://github.com/liu-congcong/ProcessKiller
